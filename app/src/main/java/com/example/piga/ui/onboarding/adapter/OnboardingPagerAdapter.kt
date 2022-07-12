@@ -1,4 +1,4 @@
-package com.example.piga.onboarding.adapter
+package com.example.piga.ui.onboarding.adapter
 
 import android.view.LayoutInflater
 import android.view.ViewGroup

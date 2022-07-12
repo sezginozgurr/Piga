@@ -6,6 +6,6 @@
 
     <fragment
         android:id="@+id/onBoardingFragment"
-        android:name="com.example.piga.onboarding.OnBoardingFragment"
+        android:name="com.example.piga.ui.onboarding.OnBoardingFragment"
         android:label="OnBoardingFragment" />
 </navigation>

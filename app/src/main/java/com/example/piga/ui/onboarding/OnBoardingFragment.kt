@@ -1,11 +1,10 @@
-package com.example.piga.onboarding
+package com.example.piga.ui.onboarding
 
-import androidx.core.view.isVisible
 import androidx.viewpager2.widget.ViewPager2
 import com.example.piga.R
 import com.example.piga.base.BaseFragment
 import com.example.piga.databinding.FragmentOnboardingBinding
-import com.example.piga.onboarding.adapter.OnboardingPagerAdapter
+import com.example.piga.ui.onboarding.adapter.OnboardingPagerAdapter
 import com.example.piga.util.Mock
 import com.example.piga.util.setSafeOnClickListener
 import com.google.android.material.tabs.TabLayoutMediator
