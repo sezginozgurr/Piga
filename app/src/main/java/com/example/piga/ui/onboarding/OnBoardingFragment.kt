@@ -1,5 +1,6 @@
 package com.example.piga.ui.onboarding
 
+import androidx.navigation.fragment.findNavController
 import androidx.viewpager2.widget.ViewPager2
 import com.example.piga.R
 import com.example.piga.base.BaseFragment
@@ -34,7 +35,7 @@ class OnBoardingFragment :
         TabLayoutMediator(binding.pageIndicator, binding.vpOnBoardingPage) { _, _ -> }.attach()
         binding.btnNext.setSafeOnClickListener {
             if (binding.vpOnBoardingPage.currentItem > binding.vpOnBoardingPage.childCount) {
-                //findNavController().navigate(R.id.action_onBoardingFragment_to_loginFragment)
+                findNavController().navigate(R.id.action_onBoardingFragment_to_beforeLoginFragment)
             } else {
                 binding.vpOnBoardingPage.setCurrentItem(
                     binding.vpOnBoardingPage.currentItem + 1,

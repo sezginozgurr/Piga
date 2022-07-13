@@ -5,4 +5,14 @@
         <attr name="android:text" format="reference" />
     </declare-styleable>
 
+    <declare-styleable name="CustomEditText">
+        <attr name="cet_ime_options" format="enum">
+            <enum name="NEXT" value="0" />
+            <enum name="DONE" value="1" />
+        </attr>
+        <attr name="cet_drawable_start" format="integer" />
+        <attr name="cet_hint" format="string" />
+        <attr name="cet_text" format="string" />
+    </declare-styleable>
+
 </resources>

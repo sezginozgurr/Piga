@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.textfield.TextInputEditText xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/cetEdittext"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/rounded_background"
+    android:drawableStart="@drawable/ic_mail"
+    android:drawablePadding="16dp"
+    android:ellipsize="end"
+    android:hint="e-mail adresini girin"
+    android:minHeight="48dp"
+    android:paddingStart="16dp"
+    android:paddingEnd="16dp"
+    android:singleLine="true" />

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.login.LoginFragment">
+
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintHeight_percent="0.6"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/before_login_background" />
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/gradient"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        app:layout_constraintBottom_toBottomOf="@id/imageView"
+        app:srcCompat="@drawable/white_gradient" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/logo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Piga Logo"
+        android:textColor="#B450DC"
+        android:textSize="@dimen/sp_32"
+        android:textStyle="bold"
+        app:layout_constraintTop_toBottomOf="@id/gradient" />
+
+    <com.example.piga.util.custom.PigaEdittext
+        android:id="@+id/telehoneNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/dp_16"
+        android:layout_marginTop="@dimen/dp_16"
+        app:cet_drawable_start="@drawable/ic_telephone"
+        app:cet_hint="Cep Telefonu"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/logo" />
+
+    <com.example.piga.util.custom.PigaEdittext
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/dp_16"
+        android:layout_marginTop="@dimen/dp_16"
+        app:cet_drawable_start="@drawable/ic_key"
+        app:cet_hint="Şifre"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/telehoneNumber" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/buttonLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/dp_24"
+        android:padding="@dimen/dp_12"
+        android:text="Giriş Yap"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        app:cornerRadius="@dimen/dp_8"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/password" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
