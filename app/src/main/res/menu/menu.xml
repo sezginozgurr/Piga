@@ -6,7 +6,7 @@
         android:title="@string/core_piga" />
 
     <item
-        android:id="@+id/discoverFragment"
+        android:id="@+id/discoveryFragment"
         android:icon="@drawable/ic_bottom_discovery"
         android:title="@string/discover" />
 
@@ -16,8 +16,8 @@
         android:title="@string/chat" />
 
     <item
-        android:id="@+id/whoLikeYourFragment"
-        android:icon="@drawable/ic_bottom_chat"
+        android:id="@+id/whoLikeYouFragment"
+        android:icon="@drawable/ic_bottom_favourite"
         android:title="@string/who_like_you" />
 
     <item

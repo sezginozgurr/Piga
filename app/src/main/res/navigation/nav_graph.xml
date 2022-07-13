@@ -48,4 +48,5 @@
         android:name="com.example.piga.ui.home.HomeFragment"
         android:label="fragment_home"
         tools:layout="@layout/fragment_home" />
+
 </navigation>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:startDestination="@id/pigaFragment"
+    android:id="@+id/main_graph">
+
+    <fragment
+        android:id="@+id/chatFragment"
+        android:name="com.example.piga.ui.chat.ChatFragment"
+        android:label="fragment_chat"
+        tools:layout="@layout/fragment_chat" />
+    <fragment
+        android:id="@+id/discoveryFragment"
+        android:name="com.example.piga.ui.discovery.DiscoveryFragment"
+        android:label="fragment_discovery"
+        tools:layout="@layout/fragment_discovery" />
+    <fragment
+        android:id="@+id/pigaFragment"
+        android:name="com.example.piga.ui.piga.PigaFragment"
+        android:label="fragment_piga"
+        tools:layout="@layout/fragment_piga" />
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="com.example.piga.ui.profile.ProfileFragment"
+        android:label="fragment_profile"
+        tools:layout="@layout/fragment_profile" />
+    <fragment
+        android:id="@+id/whoLikeYouFragment"
+        android:name="com.example.piga.ui.wholikeyou.WhoLikeYouFragment"
+        android:label="fragment_who_like_you"
+        tools:layout="@layout/fragment_who_like_you" />
+
+</navigation>
