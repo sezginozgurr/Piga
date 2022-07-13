@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/pigaFragment"
+        android:icon="@drawable/ic_bottom_piga"
+        android:title="@string/core_piga" />
+
+    <item
+        android:id="@+id/discoverFragment"
+        android:icon="@drawable/ic_bottom_discovery"
+        android:title="@string/discover" />
+
+    <item
+        android:id="@+id/chatFragment"
+        android:icon="@drawable/ic_bottom_chat"
+        android:title="@string/chat" />
+
+    <item
+        android:id="@+id/whoLikeYourFragment"
+        android:icon="@drawable/ic_bottom_chat"
+        android:title="@string/who_like_you" />
+
+    <item
+        android:id="@+id/profileFragment"
+        android:icon="@drawable/ic_bottom_profile"
+        android:title="@string/profile" />
+</menu>
