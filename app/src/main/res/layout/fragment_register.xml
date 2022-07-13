@@ -1,111 +1,117 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context=".ui.register.RegisterFragment">
+    android:layout_height="match_parent">
 
-    <androidx.appcompat.widget.AppCompatImageView
-        android:id="@+id/imageView"
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:scaleType="centerCrop"
-        app:layout_constraintHeight_percent="0.3"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/before_login_background" />
-
-    <androidx.appcompat.widget.AppCompatImageView
-        android:id="@+id/gradient"
-        android:layout_width="match_parent"
-        android:layout_height="200dp"
-        app:layout_constraintBottom_toBottomOf="@id/imageView"
-        app:srcCompat="@drawable/white_gradient" />
-
-    <androidx.appcompat.widget.AppCompatTextView
-        android:id="@+id/logo"
+    <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:gravity="center"
-        android:text="Piga Logo"
-        android:textColor="#B450DC"
-        android:textSize="@dimen/sp_32"
-        android:textStyle="bold"
-        app:layout_constraintTop_toBottomOf="@id/gradient" />
+        tools:context=".ui.register.RegisterFragment">
 
-    <com.example.piga.util.custom.PigaEdittext
-        android:id="@+id/nameSurname"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginHorizontal="@dimen/dp_16"
-        android:layout_marginTop="@dimen/dp_16"
-        app:cet_drawable_start="@drawable/ic_person"
-        app:cet_hint="Ad Soyad"
-        app:layout_constraintTop_toBottomOf="@id/logo" />
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:scaleType="centerCrop"
+            app:layout_constraintHeight_percent="0.3"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/before_login_background" />
 
-    <com.example.piga.util.custom.PigaEdittext
-        android:id="@+id/eMail"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginHorizontal="@dimen/dp_16"
-        android:layout_marginTop="@dimen/dp_8"
-        app:cet_drawable_start="@drawable/ic_vector_mail"
-        app:cet_hint="Mail Adresi"
-        app:layout_constraintTop_toBottomOf="@id/nameSurname" />
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/gradient"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            app:layout_constraintBottom_toBottomOf="@id/imageView"
+            app:srcCompat="@drawable/white_gradient" />
 
-    <com.example.piga.util.custom.PigaEdittext
-        android:id="@+id/telephoneNumber"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginHorizontal="@dimen/dp_16"
-        android:layout_marginTop="@dimen/dp_8"
-        app:cet_drawable_start="@drawable/ic_telephone"
-        app:cet_hint="Telefon Numarası"
-        app:layout_constraintTop_toBottomOf="@id/eMail" />
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/logo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Piga Logo"
+            android:textColor="#B450DC"
+            android:textSize="@dimen/sp_32"
+            android:textStyle="bold"
+            app:layout_constraintTop_toBottomOf="@id/gradient" />
 
-    <com.example.piga.util.custom.PigaEdittext
-        android:id="@+id/date"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:focusable="false"
-        android:layout_marginHorizontal="@dimen/dp_16"
-        android:layout_marginTop="@dimen/dp_8"
-        app:cet_drawable_start="@drawable/ic_date"
-        android:clickable="false"
-        app:cet_hint="Doğum Tarihi"
-        app:layout_constraintTop_toBottomOf="@id/telephoneNumber" />
+        <com.example.piga.util.custom.PigaEdittext
+            android:id="@+id/nameSurname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/dp_16"
+            android:layout_marginTop="@dimen/dp_16"
+            app:cet_drawable_start="@drawable/ic_person"
+            app:cet_hint="Ad Soyad"
+            app:layout_constraintTop_toBottomOf="@id/logo" />
 
-    <com.example.piga.util.custom.PigaEdittext
-        android:id="@+id/password"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginHorizontal="@dimen/dp_16"
-        android:layout_marginTop="@dimen/dp_8"
-        app:cet_drawable_start="@drawable/ic_key"
-        app:cet_hint="Şifre"
-        app:layout_constraintTop_toBottomOf="@id/date" />
+        <com.example.piga.util.custom.PigaEdittext
+            android:id="@+id/eMail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/dp_16"
+            android:layout_marginTop="@dimen/dp_8"
+            app:cet_drawable_start="@drawable/ic_vector_mail"
+            app:cet_hint="Mail Adresi"
+            app:layout_constraintTop_toBottomOf="@id/nameSurname" />
 
-    <com.example.piga.util.custom.PigaEdittext
-        android:id="@+id/retryPassword"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginHorizontal="@dimen/dp_16"
-        android:layout_marginTop="@dimen/dp_8"
-        app:cet_drawable_start="@drawable/ic_key"
-        app:cet_hint="Şifre Tekrar"
-        app:layout_constraintTop_toBottomOf="@id/password" />
+        <com.example.piga.util.custom.PigaEdittext
+            android:id="@+id/telephoneNumber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/dp_16"
+            android:layout_marginTop="@dimen/dp_8"
+            app:cet_drawable_start="@drawable/ic_telephone"
+            app:cet_hint="Telefon Numarası"
+            app:layout_constraintTop_toBottomOf="@id/eMail" />
 
-    <com.google.android.material.button.MaterialButton
-        android:id="@+id/buttonRegister"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginHorizontal="@dimen/dp_24"
-        android:padding="@dimen/dp_12"
-        android:text="Hesap Oluştur"
-        android:textAllCaps="false"
-        android:textColor="@color/white"
-        app:cornerRadius="@dimen/dp_8"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/retryPassword" />
+        <com.example.piga.util.custom.PigaEdittext
+            android:id="@+id/date"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/dp_16"
+            android:layout_marginTop="@dimen/dp_8"
+            android:clickable="false"
+            android:focusable="false"
+            app:cet_drawable_start="@drawable/ic_date"
+            app:cet_hint="Doğum Tarihi"
+            app:layout_constraintTop_toBottomOf="@id/telephoneNumber" />
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+        <com.example.piga.util.custom.PigaEdittext
+            android:id="@+id/password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/dp_16"
+            android:layout_marginTop="@dimen/dp_8"
+            app:cet_drawable_start="@drawable/ic_key"
+            app:cet_hint="Şifre"
+            app:layout_constraintTop_toBottomOf="@id/date" />
+
+        <com.example.piga.util.custom.PigaEdittext
+            android:id="@+id/retryPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/dp_16"
+            android:layout_marginTop="@dimen/dp_8"
+            app:cet_drawable_start="@drawable/ic_key"
+            app:cet_hint="Şifre Tekrar"
+            app:layout_constraintTop_toBottomOf="@id/password" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/buttonRegister"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/dp_24"
+            android:padding="@dimen/dp_12"
+            android:text="Hesap Oluştur"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            app:cornerRadius="@dimen/dp_8"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/retryPassword" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>
