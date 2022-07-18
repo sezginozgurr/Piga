@@ -1,4 +1,4 @@
-package com.example.piga.ui.discovery
+package com.example.piga.ui.home.discovery
 
 import com.example.piga.base.BaseFragment
 import com.example.piga.databinding.FragmentDiscoveryBinding

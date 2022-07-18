@@ -1,8 +1,8 @@
-package com.example.piga.ui.profile.detail
+package com.example.piga.ui.home.personprofile.detail
 
 import com.example.piga.base.BaseFragment
 import com.example.piga.databinding.FragmentProfileDetailBinding
-import com.example.piga.ui.profile.detail.adapter.HobbysListAdapter
+import com.example.piga.ui.home.personprofile.detail.adapter.HobbysListAdapter
 import com.example.piga.util.Mock
 
 class ProfileDetailFragment() :

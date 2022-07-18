@@ -1,4 +1,4 @@
-package com.example.piga.ui.profile
+package com.example.piga.ui.home.profile
 
 import androidx.navigation.fragment.findNavController
 import com.example.piga.R

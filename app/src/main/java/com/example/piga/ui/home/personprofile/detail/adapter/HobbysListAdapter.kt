@@ -1,4 +1,4 @@
-package com.example.piga.ui.profile.detail.adapter
+package com.example.piga.ui.home.personprofile.detail.adapter
 
 import android.view.ViewGroup
 import androidx.recyclerview.widget.DiffUtil

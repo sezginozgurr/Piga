@@ -7,32 +7,32 @@
 
     <fragment
         android:id="@+id/chatFragment"
-        android:name="com.example.piga.ui.chat.ChatFragment"
+        android:name="com.example.piga.ui.home.chat.ChatFragment"
         android:label="fragment_chat"
         tools:layout="@layout/fragment_chat" />
     <fragment
         android:id="@+id/discoveryFragment"
-        android:name="com.example.piga.ui.discovery.DiscoveryFragment"
+        android:name="com.example.piga.ui.home.discovery.DiscoveryFragment"
         android:label="fragment_discovery"
         tools:layout="@layout/fragment_discovery" />
     <fragment
         android:id="@+id/pigaFragment"
-        android:name="com.example.piga.ui.piga.PigaFragment"
+        android:name="com.example.piga.ui.home.piga.PigaFragment"
         android:label="fragment_piga"
         tools:layout="@layout/fragment_piga" />
     <fragment
         android:id="@+id/profileFragment"
-        android:name="com.example.piga.ui.profile.ProfileFragment"
+        android:name="com.example.piga.ui.home.profile.ProfileFragment"
         android:label="fragment_profile"
         tools:layout="@layout/fragment_profile" />
     <fragment
         android:id="@+id/whoLikeYouFragment"
-        android:name="com.example.piga.ui.wholikeyou.WhoLikeYouFragment"
+        android:name="com.example.piga.ui.home.wholikeyou.WhoLikeYouFragment"
         android:label="fragment_who_like_you"
         tools:layout="@layout/fragment_who_like_you" />
     <fragment
         android:id="@+id/profileDetailFragment"
-        android:name="com.example.piga.ui.profile.detail.ProfileDetailFragment"
+        android:name="com.example.piga.ui.home.personprofile.detail.ProfileDetailFragment"
         android:label="ProfileDetailFragment" />
 
 </navigation>

@@ -1,4 +1,4 @@
-package com.example.piga.ui.chat
+package com.example.piga.ui.home.chat
 
 import com.example.piga.base.BaseFragment
 import com.example.piga.databinding.FragmentChatBinding
