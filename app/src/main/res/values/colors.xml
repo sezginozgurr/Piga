@@ -12,4 +12,5 @@
     <color name="md_deep_orange_100">#FFCCBC</color>
     <color name="md_deep_orange_300">#FF8A65</color>
     <color name="md_deep_gray_400">#C1C0C9</color>
+    <color name="md_deep_gray_500">#9D9CA1</color>
 </resources>

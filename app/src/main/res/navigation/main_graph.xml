@@ -30,5 +30,9 @@
         android:name="com.example.piga.ui.wholikeyou.WhoLikeYouFragment"
         android:label="fragment_who_like_you"
         tools:layout="@layout/fragment_who_like_you" />
+    <fragment
+        android:id="@+id/profileDetailFragment"
+        android:name="com.example.piga.ui.profile.detail.ProfileDetailFragment"
+        android:label="ProfileDetailFragment" />
 
 </navigation>
