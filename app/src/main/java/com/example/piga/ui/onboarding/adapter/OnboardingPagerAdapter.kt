@@ -7,7 +7,7 @@ import androidx.appcompat.widget.AppCompatTextView
 import androidx.core.content.ContextCompat
 import androidx.recyclerview.widget.RecyclerView
 import com.example.piga.R
-import com.example.piga.data.OnboardingPagerModel
+import com.example.piga.data.fakemodel.OnboardingPagerModel
 
 class OnboardingPagerAdapter(
     private val list: List<OnboardingPagerModel>

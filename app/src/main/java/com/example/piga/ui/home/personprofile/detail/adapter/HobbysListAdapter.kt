@@ -6,7 +6,7 @@ import androidx.recyclerview.widget.RecyclerView
 import com.example.piga.R
 import com.example.piga.base.BaseDiffCallBack
 import com.example.piga.base.BindingViewHolder
-import com.example.piga.data.HobbyModel
+import com.example.piga.data.fakemodel.HobbyModel
 import com.example.piga.databinding.ItemHobbyBinding
 import com.example.piga.util.inflate
 

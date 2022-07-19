@@ -1,8 +1,9 @@
 package com.example.piga.util
 
 import com.example.piga.R
-import com.example.piga.data.HobbyModel
-import com.example.piga.data.OnboardingPagerModel
+import com.example.piga.data.fakemodel.HobbyModel
+import com.example.piga.data.fakemodel.OnboardingPagerModel
+import com.example.piga.data.fakemodel.WhoLikeYouModel
 
 object Mock {
     fun getOnboardingPageList(): List<OnboardingPagerModel> {
@@ -46,6 +47,24 @@ object Mock {
         list.add(model4)
         list.add(model5)
         list.add(model6)
+        return list
+    }
+
+    fun getWhoLikeYouList(): List<WhoLikeYouModel> {
+        val model = WhoLikeYouModel("Sultan Köse",R.drawable.fake_1,0)
+        val model1 = WhoLikeYouModel("Suzan Topçu",R.drawable.fake_2,0)
+        val model2 = WhoLikeYouModel("Mine Leyli",R.drawable.fake_3,1)
+        val model3 = WhoLikeYouModel("Korhan Top",R.drawable.fake_4,0)
+        val model4 = WhoLikeYouModel("Dümen Yapmak",R.drawable.fake_5,0)
+        val model5 = WhoLikeYouModel("Bira İçmek",R.drawable.fake_6,0)
+
+        val list = ArrayList<WhoLikeYouModel>()
+        list.add(model)
+        list.add(model1)
+        list.add(model2)
+        list.add(model3)
+        list.add(model4)
+        list.add(model5)
         return list
     }
 }
